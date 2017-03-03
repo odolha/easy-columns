@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Easy Columns", "Easy Columns.vbproj", "{D3251C52-1C1C-4E28-9DE2-EA09FE217F35}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup Easy Columns", "..\Setup Easy Columns\Setup Easy Columns.vdproj", "{61E05C68-793D-457C-AC76-65FAB14E2436}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D3251C52-1C1C-4E28-9DE2-EA09FE217F35}.Debug.ActiveCfg = Debug|.NET
+		{D3251C52-1C1C-4E28-9DE2-EA09FE217F35}.Debug.Build.0 = Debug|.NET
+		{D3251C52-1C1C-4E28-9DE2-EA09FE217F35}.Release.ActiveCfg = Release|.NET
+		{D3251C52-1C1C-4E28-9DE2-EA09FE217F35}.Release.Build.0 = Release|.NET
+		{61E05C68-793D-457C-AC76-65FAB14E2436}.Debug.ActiveCfg = Debug
+		{61E05C68-793D-457C-AC76-65FAB14E2436}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
